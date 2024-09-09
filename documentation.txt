@@ -1,0 +1,9 @@
+The project was built using create-react-app and Typescript. 
+
+Project structure
+/components  - directory with main project components
+/hooks - contains hook for making an API request to the server to convert text to pdf document
+/services - contains StorageService, which manages storing/retrieving conversion history from browser localStorage. There is an ability to subscribe to storage changes to reflect the latest state of the application.
+/type - contains the file with types
+
+There was Tailwind CSS used for styling, "embed" HTML tag for showing PDF files on the page
